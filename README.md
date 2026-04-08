@@ -35,7 +35,7 @@ The script saves a CSV file in the `data/` folder.
 
 Example:
 
-![Example Output](examples/terminal_output.png)
+![Example Output](examples/terminal_output.PNG)
 
 ## Project Structure
 
