@@ -4,7 +4,7 @@
 ![API](https://img.shields.io/badge/API-Binance-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A simple Python project for downloading historical cryptocurrency OHLCV market data from the Binance REST API.
+A Python tool for downloading historical cryptocurrency OHLCV market data from the Binance REST API and exporting it as structured CSV datasets.
 
 ## Features
 
