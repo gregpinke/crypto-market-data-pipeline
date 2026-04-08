@@ -35,15 +35,18 @@ The script saves a CSV file in the `data/` folder.
 
 Example:
 
-data/btcusdt_1h.csv
+![Example Output](examples/terminal_output.png)
 
 ## Project Structure
 
+```text
 crypto-market-data-pipeline/
-│
 ├── src/
 │   └── fetch_binance_data.py
 ├── data/
+│   └── sample_btcusdt_1h.csv
 ├── examples/
+│   └── terminal_output.png
 ├── README.md
 └── requirements.txt
+```
