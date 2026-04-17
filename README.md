@@ -13,6 +13,46 @@ A Python tool for downloading historical cryptocurrency OHLCV market data from t
 - Export clean CSV datasets
 - Command line arguments for symbol, interval, and candle count
 
+---
+
+## System Workflow
+
+This project follows a simple automated data pipeline:
+
+User CLI Input  
+(symbol / interval / limit)  
+↓  
+Binance REST API  
+(/api/v3/klines)  
+↓  
+JSON Market Data  
+↓  
+Python Processing Layer  
+(pandas DataFrame transformation)  
+↓  
+Structured Dataset  
+↓  
+CSV Export  
+
+The script automates the collection and transformation of exchange market data into a structured dataset suitable for analysis or research workflows.
+
+---
+
+## Project Impact
+
+Historical market data is essential for:
+
+- trading research
+- strategy development
+- financial data analysis
+- backtesting models
+
+Manually exporting datasets from exchanges is slow and error-prone.
+
+This tool automates the entire process, transforming raw API responses into clean, ready-to-analyze datasets in seconds.
+
+---
+
 ## Installation
 
 Install dependencies:
@@ -39,7 +79,6 @@ Example:
 
 ## Project Structure
 
-```text
 crypto-market-data-pipeline/
 ├── src/
 │   └── fetch_binance_data.py
@@ -49,4 +88,3 @@ crypto-market-data-pipeline/
 │   └── terminal_output.png
 ├── README.md
 └── requirements.txt
-```
